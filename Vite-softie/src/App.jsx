@@ -7,6 +7,7 @@ import Featuers from './Components/Featuers'
 import Screenshot from './Components/Screenshot'
 import Client from './Components/Client'
 import Pricing from './Components/Pricing'
+import Footbar from './Footbar'
 
 
 
@@ -27,6 +28,7 @@ function App() {
     <Screenshot/>
     <Client/>
     <Pricing/>
+    <Footbar/>
    
 
   

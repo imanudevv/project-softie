@@ -116,13 +116,13 @@ const Pricing = () => {
 
       
 </div>
-<div className="flex gap-20 ml-10"><img src="1.png"className="mx-auto h-24 w-24"/>
-<img src="2.png"className="mx-auto h-24 w-24"/>
-<img src="3.png"className="mx-auto h-24 w-24"/>
-<img src="4.png"className="mx-auto h-24 w-24"/>
+<div className="flex gap-20 ml-10 mt-15 justify-center gap-50"><img src="1.png"className="h-12 w-auto object-contain"/>
+<img src="2.png"className="h-12 w-auto object-contain"/>
+<img src="3.png"className="h-12 w-auto object-contain"/>
+<img src="4.png"className="h-12 w-auto object-contain"/>
 </div>
 </div>
   )
 }
 
-export default Pricing
+export default Pricing;
