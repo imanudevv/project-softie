@@ -1,6 +1,5 @@
 import "bootstrap-icons/font/bootstrap-icons.css";
 
-
 const About = () => {
   return (
     <>
@@ -9,7 +8,6 @@ const About = () => {
   <span className="text-blue-600 text-[15px]">About</span>
   <h2 className="text-[24px] font-medium">About Us</h2>
 </div>
-
         <p className="flex items-center justify-center gap-2 my-2">
           <span className="border-b-2 w-6 border-gray-300"></span>
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -27,7 +25,7 @@ const About = () => {
         <div className='flex mt-[4%] ml-[20%] gap-5.5'>
           <div className="w-full md:w-80 p-6 border border-gray-200  text-center shadow-sm hover:shadow-md transition">
             <div className="text-blue-500 text-4xl mb-4">
-              {/* Replace <i> with a React icon or ensure Bootstrap Icons CSS is loaded */}
+       
               <i className="bi bi-box-arrow-up"></i>
             </div>
             <h3 className="text-xl font-semibold mb-3">Strategy Solutions</h3>
@@ -68,8 +66,6 @@ const About = () => {
             </button>
           </div>
 
-          
-          
         </div>
       </div>
     </>

@@ -1,4 +1,6 @@
-const Featuers = () => {
+
+
+const Features = () => {
   return (
     <>
       {/* Heading and subheading */}
@@ -181,4 +183,4 @@ const Featuers = () => {
   );
 };
 
-export default Featuers;
+export default  Features;

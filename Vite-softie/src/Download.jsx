@@ -1,4 +1,4 @@
-const Footbar = () => {
+const Download = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Add form submission logic here
@@ -119,4 +119,4 @@ const Footbar = () => {
   );
 };
 
-export default Footbar;
+export default Download;
