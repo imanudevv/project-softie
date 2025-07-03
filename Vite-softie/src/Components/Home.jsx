@@ -6,6 +6,7 @@ import Features from './Features';
 import Screenshot from './Screenshot';
 import Client from'./Client';
 import Pricing from "./Pricing";
+import Download from "../Download";
 
 
 
@@ -71,6 +72,7 @@ const Home = () => {
       <Screenshot />
       <Client/>
       <Pricing/>
+      <Download/>
     
     </div>
   );

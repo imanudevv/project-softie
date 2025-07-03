@@ -1,11 +1,6 @@
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
-import About from "./About";
-import Features from "./Features";
-import Screenshot from "./Screenshot";
-import Client from "./Client";
-import Pricing from "./Pricing";
-import Download from "../Download";
+
 
 export const Navbar = () => {
   const [scrolled, setScrolled] = useState(false);
@@ -40,12 +35,7 @@ export const Navbar = () => {
           Sign Up
         </button>
       </div>
-      <About />
-      <Features />
-      <Screenshot />
-      <Client />
-      <Pricing />
-      <Download />   {/* <-- Add this line if you want Download on home page */}
+
     </div>
   );
 };
